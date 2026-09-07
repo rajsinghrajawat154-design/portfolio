@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Raj Singh — CSE (AIML) student, AI/ML enthusiast and video editor.">
+  <title>Raj Singh | AI • Code • Stories</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cursor-glow" id="cursorGlow"></div>
+  <canvas id="spaceCanvas" aria-hidden="true"></canvas>
+
+  <nav class="nav">
+    <a class="brand" href="#home">RAJ<span>•</span>SINGH</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open navigation">☰</button>
+    <div class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#work">Video Work</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy">
+        <div class="eyebrow">CSE (AIML) • VIDEO EDITOR • CREATOR</div>
+        <h1>Building ideas.<br><span>Shaping stories.</span></h1>
+        <p>I combine artificial intelligence, data and code with visual storytelling to create work that is both technically strong and visually memorable.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">Explore my work <span>↗</span></a>
+          <a href="#contact" class="btn btn-glass">Let's connect</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>AI / ML</strong><small>Code & data</small></div>
+          <div><strong>VIDEO</strong><small>Visual stories</small></div>
+          <div><strong>3D</strong><small>Digital experience</small></div>
+        </div>
+      </div>
+
+      <div class="portrait-world">
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="portrait-card" id="portraitCard">
+          <div class="card-shine"></div>
+          <img src="assets/raj-photo.png" alt="Portrait of Raj Singh">
+          <div class="portrait-label">
+            <span>RAJ SINGH</span>
+            <small>AI × VISUAL STORYTELLING</small>
+          </div>
+        </div>
+        <div class="floating-tag tag-code">&lt;/CODE&gt;</div>
+        <div class="floating-tag tag-ai">AI • ML</div>
+        <div class="floating-tag tag-edit">EDIT</div>
+      </div>
+    </section>
+
+    <section id="about" class="section reveal">
+      <div class="section-kicker">01 / ABOUT ME</div>
+      <div class="about-grid">
+        <div class="glass-panel about-main">
+          <h2>Two worlds.<br><span>One creative mind.</span></h2>
+          <p>I'm Raj Singh, a third-year B.Tech student in Computer Science & Engineering with a specialization in Artificial Intelligence and Machine Learning.</p>
+          <p>My work sits between two worlds: solving technical problems with Python, data and machine learning, and creating compelling visual stories through professional video editing.</p>
+        </div>
+        <div class="about-stack">
+          <div class="info-card"><span>EDUCATION</span><strong>B.Tech CSE (AIML)</strong><small>Galgotia College of Engineering & Technology</small></div>
+          <div class="info-card"><span>LOCATION</span><strong>Delhi, India</strong><small>Open to opportunities and collaborations</small></div>
+          <div class="info-card accent"><span>MY APPROACH</span><strong>Build. Create. Explain.</strong><small>Technology should work beautifully and communicate clearly.</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section reveal">
+      <div class="section-kicker">02 / TOOLKIT</div>
+      <h2 class="section-title">Skills that move<br><span>between dimensions.</span></h2>
+      <div class="skill-grid">
+        <article class="skill-card tilt"><div class="skill-icon">⌘</div><h3>Programming</h3><p>Python · SQL · Git</p></article>
+        <article class="skill-card tilt"><div class="skill-icon">◈</div><h3>AI & Data</h3><p>Machine Learning · Pandas · NumPy · Visualization</p></article>
+        <article class="skill-card tilt"><div class="skill-icon">▶</div><h3>Visual Editing</h3><p>Adobe Premiere Pro · Canva · Color Grading</p></article>
+      </div>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <div class="section-top">
+        <div>
+          <div class="section-kicker">03 / ENGINEERING</div>
+          <h2 class="section-title">Selected <span>projects.</span></h2>
+        </div>
+        <p class="section-note">New projects are managed by the portfolio owner through the GitHub repository.</p>
+      </div>
+      <div id="projectGrid" class="project-grid"></div>
+    </section>
+
+    <section id="work" class="section reveal">
+      <div class="section-top">
+        <div>
+          <div class="section-kicker warm">04 / VISUAL STORIES</div>
+          <h2 class="section-title">Video editing <span>work.</span></h2>
+        </div>
+        <p class="section-note">Showcase reels, client edits and personal visual projects.</p>
+      </div>
+      <div id="workGrid" class="work-grid"></div>
+    </section>
+
+    <section id="contact" class="section reveal">
+      <div class="contact-panel">
+        <div class="contact-orb"></div>
+        <div class="section-kicker">05 / CONTACT</div>
+        <h2>Have an idea?<br><span>Let's make it real.</span></h2>
+        <p>Whether it's an AI project, a technical collaboration or a visual story, I'd love to hear about it.</p>
+        <div class="contact-links">
+          <!-- Replace these placeholders with your real links before publishing -->
+          <a href="mailto:your.email@example.com">your.email@example.com ↗</a>
+          <a href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="#" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="#" target="_blank" rel="noopener">Video reel ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> RAJ SINGH</span>
+    <span>DESIGNED IN 3D SPACE</span>
+  </footer>
+
+  <script src="projects.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
