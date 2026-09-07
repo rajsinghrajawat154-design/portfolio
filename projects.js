@@ -14,15 +14,15 @@
 window.PORTFOLIO_DATA = {
   projects: [
     {
-      title: "Your first AI project",
-      description: "Replace this with your real project description, the problem you solved and the result.",
+      title: "Your first project",
+      description: "coming soon.",
       tags: ["Python", "Machine Learning", "Pandas"],
       link: "#",
       visual: "01"
     },
     {
-      title: "Data analysis project",
-      description: "Add your data cleaning, visualization or analytics project here.",
+      title: "mini project",
+      description: "coming soon.",
       tags: ["Python", "NumPy", "Visualization"],
       link: "#",
       visual: "02"
@@ -38,14 +38,14 @@ window.PORTFOLIO_DATA = {
   work: [
     {
       title: "Your video edit",
-      description: "Add a YouTube, Instagram, Drive or other hosted link to your video.",
+      description: "coming soon.",
       tags: ["Premiere Pro", "Editing"],
       link: "#",
       thumbnail: ""
     },
     {
       title: "Cinematic visual story",
-      description: "Replace this placeholder with one of your best editing projects.",
+      description: "coming soon.",
       tags: ["Color Grading", "Storytelling"],
       link: "#",
       thumbnail: ""
